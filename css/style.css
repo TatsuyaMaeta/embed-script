@@ -23,7 +23,7 @@ body {
 }
 
 .container_row {
-    margin: 80px 40px;
+    margin: 40px 20px;
     text-align: center;
 }
 
@@ -40,7 +40,9 @@ body {
 }
 
 .slider_second {
-    width: 460px;
+    /* width: 460px; */
+    width: 900px;
+
 }
 
 .slider_viewport {
@@ -49,13 +51,15 @@ body {
 }
 
 .slider_list {
-    width: 450px;
+    /* width: 450px; */
+    width: 900px;
+
 }
 
 .slider_item {
     float: left;
     height: 150px;
-    width: 150px;
+    width: 300px;
 }
 
 .slider_item img {

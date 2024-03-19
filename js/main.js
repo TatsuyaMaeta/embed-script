@@ -1,3 +1,5 @@
+// https://codepen.io/DevTM/pen/jyewLm
+
 (function ($) {
     "use strict";
 
@@ -294,7 +296,7 @@
 
 var $slider = $("#slider").slider();
 var $carousel = $("#carousel").slider({
-    interval: 3000,
+    interval: 5000,
     items: 3,
     loop: true,
     callback: function (number) {
@@ -302,7 +304,7 @@ var $carousel = $("#carousel").slider({
     },
 });
 var $slider2 = $("#slider2").slider({
-    interval: 3000,
+    interval: 5000,
     loop: true,
 });
 

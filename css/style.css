@@ -49,17 +49,22 @@ body {
 }
 
 .slider_list {
+    width: 450px;
 }
 
 .slider_item {
     float: left;
+    height: 150px;
+    width: 150px;
 }
 
 .slider_item img {
     display: block;
     max-width: 100%;
     width: 100%;
-    height: auto;
+    height: 100%;
+    /* height: auto; */
+    object-fit: cover;
 }
 
 .slider_nav.is-disabled {

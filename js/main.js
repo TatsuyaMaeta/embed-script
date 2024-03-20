@@ -312,4 +312,5 @@ console.log("Total number of slides - " + $slider.getSlidesCount());
 
 document.getElementById("Button").onclick = function () {
     alert("Button Clicked!");
+    $("#btn_wrapper").html("<h1>hello</h1>");
 };
